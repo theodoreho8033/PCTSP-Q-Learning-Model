@@ -1,8 +1,9 @@
-A schoool project tackling the Prize Collecting Traveling Sales Problem (PCTSP), a known NP-hard problem. Our proposed solution to the PCTSP is a single agent reinforcement learning Q-Learning algorithm adapted from a multi agent reinforcement learning
-algorithm published from the California State Univeristy.
+The Prize Collecting Traveling Sales Problem (PCTSP) is a known NP-Hard problem. Since no efficent polynomail time solution exists for the problem, there are two main camps of solutions to approximate the optimal, heuristics like shortest-path or more complicated AI models such as genetic algorithims or re-enforcement learning algorithms. 
 
-Our algorithm obtained a 5% increase in path-length from the shortest-path heuristic. 
+This projects presents a single agent Q-Learning re-enforcement learning algorithm which out-preforms the greedy shortest-path heuristic as well as other multi-agent Q-learning algorithms for the PCTSP. 
+
 
 See pdf in repo for full project report. 
+
 Codebase: https://colab.research.google.com/drive/1AFUVKmN6FXBuAYzM9P-FH9-nTPmiVCAC?usp=sharing
 
